@@ -1,0 +1,107 @@
+@media (max-width: 1200px) {
+    :root {
+        --font-size: 14px;
+    }
+
+    .grid-container {
+        height: 450px;
+    }
+
+    a ion-icon {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    :root {
+        --font-size: 12px;
+    }
+
+    .grid-container {
+        height: 350px;
+    }
+
+    .btn:link,
+    .btn:visited {
+        padding: 10px 40px;
+    }
+
+    .grid-container div:last-child p {
+        margin-bottom: 30px;
+    }
+
+    a ion-icon {
+        height: 15px;
+        width: 15px;
+        padding: 7px;
+    }
+
+    .grid-container div:last-child h1 {
+        margin: 40px 0 20px 0;
+    }
+
+    .center nav img {
+        width: 180px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    header {
+        height: 900px;
+    }
+
+    .center {
+        min-width: 350px;
+        width: 350px;
+    }
+
+    nav {
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 240%;
+    }
+
+    p {
+        line-height: 20 px;
+        font-size: 150%;
+    }
+
+    .center nav img {
+        width: 120px;
+        height: auto;
+    }
+
+    .grid-container {
+        height: 740px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 400px;
+    }
+
+    .grid-container div:last-child h1,
+    .grid-container div:last-child p {
+        text-align: center;
+    }
+
+    .btn:link,
+    .btn:visited {
+        padding: 10px 70px;
+        margin: 0 calc(50% - calc(70px * 2) + 45px);
+    }
+
+    .icons {
+        float: none;
+        margin: 0 calc(50% - 85px);
+    }
+}
